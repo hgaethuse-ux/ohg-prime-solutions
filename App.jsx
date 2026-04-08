@@ -17,7 +17,9 @@ export default function App() {
       {/* Header */}
       <header className="flex justify-between items-center mb-10">
         <h1 className="text-2xl font-bold">OHG Prime Solutions</h1>
-        <Button className="rounded-2xl">Contact Us</Button>
+        <a href="mailto:your@email.com">
+  <Button>Contact Us</Button>
+</a>
       </header>
 
       {/* Hero Section */}
@@ -32,7 +34,7 @@ export default function App() {
         <p className="text-gray-400 max-w-xl mx-auto">
           We design and develop modern applications that help businesses grow and scale efficiently.
         </p>
-        <a href="https://wa.me/267XXXXXXXX">
+        <a href="https://wa.me/26772220299">
   <Button>Get Started</Button>
 </a>
       </section>
