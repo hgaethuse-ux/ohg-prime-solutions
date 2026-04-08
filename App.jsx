@@ -1,5 +1,14 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+const Card = ({ children }) => (
+  <div className="bg-gray-800 p-4 rounded-2xl">{children}</div>
+);
+
+const CardContent = ({ children }) => <div>{children}</div>;
+
+const Button = ({ children }) => (
+  <button className="bg-blue-600 px-4 py-2 rounded-2xl">
+    {children}
+  </button>
+);
 import { motion } from "framer-motion";
 
 export default function App() {
