@@ -9,7 +9,7 @@ const Button = ({ children }) => (
     {children}
   </button>
 );
-import { motion } from "framer-motion";
+
 
 export default function App() {
   return (
@@ -24,13 +24,12 @@ export default function App() {
 
       {/* Hero Section */}
       <section className="text-center mb-16">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+        <h2>
+  
           className="text-4xl font-bold mb-4"
         >
           Building Smart Apps & Digital Solutions
-        </motion.h2>
+        <h2>
         <p className="text-gray-400 max-w-xl mx-auto">
           We design and develop modern applications that help businesses grow and scale efficiently.
         </p>
