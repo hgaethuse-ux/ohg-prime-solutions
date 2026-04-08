@@ -17,7 +17,9 @@ export default function App() {
       {/* Header */}
       <header className="flex justify-between items-center mb-10">
         <h1 className="text-2xl font-bold">OHG Prime Solutions</h1>
-        <Button className="rounded-2xl">Contact Us</Button>
+        <a href="mailto:your@email.com">
+  <Button>Contact Us</Button>
+</a>
       </header>
 
       {/* Hero Section */}
