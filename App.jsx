@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
-export default function OHGWebsite() {
+export default function App() {
   return (
     <div className="min-h-screen bg-gray-950 text-white p-6">
       {/* Header */}
