@@ -32,7 +32,9 @@ export default function App() {
         <p className="text-gray-400 max-w-xl mx-auto">
           We design and develop modern applications that help businesses grow and scale efficiently.
         </p>
-        <Button className="mt-6 rounded-2xl">Get Started</Button>
+        <a href="https://wa.me/267XXXXXXXX">
+  <Button>Get Started</Button>
+</a>
       </section>
 
       {/* Services Section */}
